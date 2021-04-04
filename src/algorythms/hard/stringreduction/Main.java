@@ -10,6 +10,7 @@ public class Main {
         System.out.println(stringReduction(input));
     }
 
+    //https://stackoverflow.com/questions/8033553/stumped-on-a-java-interview-need-some-hints/8715230#8715230
     public static long stringReduction(String input) {
         long countA = input.chars().filter(ch -> ch == 'a').count();
         long countB = input.chars().filter(ch -> ch == 'b').count();
